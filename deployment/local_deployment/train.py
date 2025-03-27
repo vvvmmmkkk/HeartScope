@@ -18,8 +18,11 @@ from sklearn.preprocessing import label_binarize, LabelEncoder
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 
-data_list = ["data\INCART_Arrhythmia.csv", "data\MIT-BIH Arrhythmia Database.csv", "data\MIT-BIH Supraventricular Arrhythmia Database.csv", ]
-
+data_list = [
+    r"C:\Users\vishnu mk\Project\ECG-Arrhythmia-Classifier\data\INCART_Arrhythmia.csv",
+    r"C:\Users\vishnu mk\Project\ECG-Arrhythmia-Classifier\data\MIT-BIH Arrhythmia Database.csv",
+    r"C:\Users\vishnu mk\Project\ECG-Arrhythmia-Classifier\data\MIT-BIH Supraventricular Arrhythmia Database.csv",
+]
 dataframes = []
 
 print("Joining the dataset")
@@ -76,7 +79,7 @@ label_encoder = LabelEncoder()
 y_train_encoded = label_encoder.fit_transform(y_full_train)
 y_test_encoded = label_encoder.transform(y_test)
 
-print("Training the XGBOOST model, It took about 8 minutes to train when i ran it on my device")
+print("Training the XGBOOST model")
 xgb_model = xgb.XGBClassifier(
     objective='multi:softprob',  
     num_class=5,                
@@ -115,3 +118,5 @@ with open('model.pkl', 'wb') as f_out:
     pickle.dump(xgb_model, f_out)
 
 
+
+	
