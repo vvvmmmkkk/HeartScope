@@ -146,14 +146,14 @@ if st.sidebar.button("🔮 Predict", use_container_width=True):
 # Footer
 st.markdown("""<br><br><br>
     <div style="text-align: center; background-color: black; color: white; padding: 20px; border-radius: 10px;">
-        <h2 style='color: blue'>About HeartScope</h2>
+        <h2 style='color: blue'>🫀About HeartScope</h2>
         <p style='font-size: 18px;'>
             HeartScope is a machine learning-based ECG arrhythmia prediction system designed to analyze
             electrocardiogram (ECG) data and classify heartbeats into different categories. The goal is to provide an
             early warning system for cardiac abnormalities and assist healthcare professionals in detecting arrhythmias.
             By leveraging advanced algorithms, HeartScope can efficiently analyze ECG signals, identify irregularities,
             and offer medical insights to support timely diagnosis. 
-            The system is designed to be user-friendly, allowing both clinicians and individuals to upload ECG data for quick and accurate analysis.With a focus on accessibility and precision, HeartScope aims to bridge the gap between technology and healthcare, enhancing early detection and proactive cardiac care.
+            The system is designed to be user-friendly, allowing both clinicians and individuals to upload ECG data for quick and accurate analysis.❤️With a focus on accessibility and precision, HeartScope aims to bridge the gap between technology and healthcare, enhancing early detection and proactive cardiac care.
         </p>
     </div>
     <br>
