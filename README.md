@@ -47,53 +47,6 @@ git clone https://github.com/vvvmmmkkk/HeartScope.git
 cd HeartScope
 ```
 
-#### **Set Up the Python Environment**:
-
-**Option 1: Using `pipenv`** (Recommended)
-
-- Install Pipenv using your system's package manager (preferred for Debian-based systems):
-
-  ```bash
-  sudo apt install pipenv
-  ```
-
-  Alternatively, you can install Pipenv via `pip`:
-
-  ```bash
-  pip install pipenv
-  ```
-
-- Install the dependencies with `pipenv`:
-
-  ```bash
-  pipenv install
-  ```
-
-- Activate the `pipenv` shell:
-  ```bash
-  pipenv shell
-  ```
-
-**Option 2: Using `requirements.txt`** (For users preferring `pip`)
-
-- Create and activate a virtual environment:
-
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows use: venv\Scripts\activate
-  ```
-
-- Install the dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
----
-
-### 📝 Notes:
-
-- If you use `pipenv`, you do not need to install the `requirements.txt` dependencies manually because `pipenv` reads the `Pipfile` and manages the environment for you.
-- For Debian-based systems, using `sudo apt install pipenv` ensures compatibility with the system Python environment and avoids issues with the "externally managed environment" restriction.
 
 ## Exploratory Data Analysis and Modeling
 
