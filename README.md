@@ -1,16 +1,15 @@
 # ECG-Arrhythmia-Classifier
 
-### Classifying Arrhythmias from ECG Signals ❤️📈
+### Classifying Arrhythmias from ECG Signals 📈
 
-Hey there! 👋 Welcome to my machine learning project, where I'm working on classifying arrhythmias using ECG signals. This project explores how artificial intelligence can assist in detecting and classifying cardiac conditions with precision.
+This project, HeartScope, is a machine learning-based ECG arrhythmia prediction system designed to analyze electrocardiogram (ECG) data and classify heartbeats into different categories. The goal is to provide an early warning system for cardiac abnormalities and assist healthcare professionals in detecting arrhythmias.
 
-The entire pipeline is designed to be reproducible and scalable, so you can easily follow along and replicate the results on your machine or in the cloud.✨ I’ve used a dataset containing ECG signal data and built an end-to-end machine learning solution using tools like Streamlit, Flask, Docker etc
-
-The goal? Help healthcare professionals detect and classify arrhythmias more accurately, improving patient care with the power of AI.
+The main goal of this project is to help healthcare professionals detect and classify arrhythmias much more accurately, which helps in improving the patient care with AI.
+It allows the user to input the ECG data as a file or by manually entering the ECG values.
 
 ## 📝 **Problem Description**
 
-Arrhythmias are irregular heartbeats that can be harmless or life-threatening, depending on their type. Early detection is critical for effective patient management and better health outcomes.
+Arrhythmias are abnormal heart rhythms that can vary in severity, from benign to life-threatening. Detecting them early is essential for timely medical intervention and improved patient care.
 
 ### **Objective**
 
@@ -27,15 +26,7 @@ For more detailed information about the dataset, including explanations of the c
 
 Ready to see how AI can help detect arrhythmias and save lives? Let’s get started! ✨
 
-## 🎉 Live Streamlit App
 
-You can check out the live version of the Streamlit app at the following URL:
-
-[Streamlit App](https://heart-class.streamlit.app/)
-
-### 📸 Screenshot of the App
-
-![Streamlit App Screenshot](image/image.png)
 
 ## 🔧 Tools & Techniques
 
@@ -52,57 +43,10 @@ To bring this project to life, I used:
 #### **Clone the Repository**:
 
 ```bash
-git clone https://github.com/Tobai24/ECG-Arrhythmia-Classifier.git
-cd ECG-Arrhythmia-Classifier
+git clone https://github.com/vvvmmmkkk/HeartScope.git
+cd HeartScope
 ```
 
-#### **Set Up the Python Environment**:
-
-**Option 1: Using `pipenv`** (Recommended)
-
-- Install Pipenv using your system's package manager (preferred for Debian-based systems):
-
-  ```bash
-  sudo apt install pipenv
-  ```
-
-  Alternatively, you can install Pipenv via `pip`:
-
-  ```bash
-  pip install pipenv
-  ```
-
-- Install the dependencies with `pipenv`:
-
-  ```bash
-  pipenv install
-  ```
-
-- Activate the `pipenv` shell:
-  ```bash
-  pipenv shell
-  ```
-
-**Option 2: Using `requirements.txt`** (For users preferring `pip`)
-
-- Create and activate a virtual environment:
-
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows use: venv\Scripts\activate
-  ```
-
-- Install the dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
----
-
-### 📝 Notes:
-
-- If you use `pipenv`, you do not need to install the `requirements.txt` dependencies manually because `pipenv` reads the `Pipfile` and manages the environment for you.
-- For Debian-based systems, using `sudo apt install pipenv` ensures compatibility with the system Python environment and avoids issues with the "externally managed environment" restriction.
 
 ## Exploratory Data Analysis and Modeling
 
@@ -138,8 +82,4 @@ It’s got the details for setting up Flask and Docker, so you can test things o
 
 The README in that folder guides you through deploying your app using Streamlit. It’s perfect for getting your app live on the cloud.
 
-## 🎉 Special Mentions
 
-A huge thank you to [DataTalks.Club](https://datatalks.club) for offering their ML course for free! 🌟 The insights and skills I gained from their course were crucial in developing this project.
-
-If you want to enhance your expertise in machine learning, I highly recommend checking out their [course](https://github.com/DataTalksClub/machine-learning-zoomcamp). It’s an invaluable resource for diving into machine learning! 📚✨
